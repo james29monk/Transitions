@@ -1,0 +1,72 @@
+.T1{ 
+    font-size: 20px;
+    color: red;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transition: width 1s, height 1s;
+    
+
+    /}
+.T1:hover{ color: aliceblue;
+    width: 850px;
+    height: 200px;
+
+/}
+
+.T2{font-size: 20px;
+    color: red;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transition: width 1s;
+    transition-delay: 500ms;
+    
+    
+
+    /}
+.T2:hover{ width: 850px;
+color: aliceblue;}
+.T3{font-size: 20px;
+     color:red;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transition-duration: 2s;
+    
+
+    /}
+.T3:hover{ color: aliceblue;
+    width: 850px;}
+.T4{font-size: 20px; 
+    color: red;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transition-property: witdth, height;
+    
+
+    /}
+.T4:hover{color:aliceblue; 
+    width: 850px;
+height:300px; }
+.T5{font-size: 20px;
+    color: red;
+    font-size: 20px;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    /}
+.T5:hover{ width: 850px;
+color: aliceblue;}
+p{font-size: 35px;
+display: flex;
+justify-content: center;}
+
+body{ background-color:gray;}
+.p2 {font-size: 20px;
+    color: gray;
+display: flex;
+justify-content: flex-start;}
